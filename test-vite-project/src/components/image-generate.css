@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    row-gap: 15px;
+}
+
+.image__random {
+    border: 1px solid transparent;
+    background: #2674FE;
+    padding: 15px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #FFF;
+    cursor: pointer;
+    border-radius: 10px;
+    display: block;
+    font-size: 18px;
+    transition: 0.5s ease-in;
+}
+
+.image__random:active {
+    transform: scale(0.96);
+}
